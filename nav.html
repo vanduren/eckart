@@ -1,0 +1,34 @@
+<div class="menu">
+<nav class="container-fluid">
+    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+      <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Home</a>
+      <a class="nav-item nav-link" id="nav-deelnemers-tab" data-toggle="tab" href="#nav-deelnemers" role="tab" aria-controls="nav-profile" aria-selected="false">deelnemers</a>
+      <a class="nav-item nav-link" id="nav-hobbies-tab" data-toggle="tab" href="#nav-hobbies" role="tab" aria-controls="nav-profile" aria-selected="false">hobby's</a>
+      <a class="nav-item nav-link" id="nav-summa-ict-tab" data-toggle="tab" href="#nav-summa-ict" role="tab" aria-controls="nav-profile" aria-selected="false">summa-ict</a>
+      <a class="nav-item nav-link" id="nav-overig-tab" data-toggle="tab" href="#nav-overig" role="tab" aria-controls="nav-profile" aria-selected="false">overig</a>
+    </div>
+</nav>
+<div class="tab-content container" id="nav-tabContent">
+    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+        <p class="lead">Een oefenwebsite ter ondersteuning van de voorlichting Eckart college (22-05-2024).</p>
+    </div>
+    <div class="tab-pane fade" id="nav-deelnemers" role="tabpanel" aria-labelledby="nav-deelnemers-tab">
+        <iframe src="deelnemers.html" style="position:absolute; display:flexbox; width:100%; border:none; height:100%" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
+    </div>
+    <div class="tab-pane fade" id="nav-hobbies" role="tabpanel" aria-labelledby="nav-hobbies-tab">
+        <div class="iframe-container">
+            <iframe src="hobbies.html" style="position:absolute; display:flexbox; width:100%; border:none; height:100%"  onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="nav-summa-ict" role="tabpanel" aria-labelledby="nav-summa-ict-tab">
+        <div class="iframe-container">
+            <iframe src="summa-ict.html" style="position:absolute; display:flexbox; width:100%; border:none; height:100%"  onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="nav-overig" role="tabpanel" aria-labelledby="nav-overig-tab">
+        <div class="iframe-container">
+            <iframe src="overig.html" style="position:absolute; display:flexbox; width:100%; border:none; height:100%"  onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
+        </div>
+    </div>
+</div>
+</div>
